@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvseq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Silahkan dijawab pertanyaan-nya"
+        />
+    
+    <TextView
+        android:id="@+id/tvseq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. 1 3 5 7 ... 11."
+        android:layout_below="@+id/tvseq1"
+        />
+    
+    <EditText 
+        android:id="@+id/etseq1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan jawaban kamu..."
+        android:layout_below="@+id/tvseq2"
+        />
+    
+    <Button
+        android:id="@+id/btnseq1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@+id/etseq1"
+        />
+    
+    <TextView
+        android:id="@+id/tvseq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. 2 4 6 8 ... 12 14."
+        android:layout_below="@+id/btnseq1"
+        />
+    
+    <EditText
+        android:id="@+id/etseq2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan jawaban kamu..."
+        android:layout_below="@+id/tvseq3"
+        /> 
+        
+    <Button
+        android:id="@+id/btnseq2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@+id/etseq2"
+        />
+    
+    <TextView 
+        android:id="@+id/tvseq4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. 1 2 4 7 ... 16 22"
+        android:layout_below="@+id/btnseq2"
+        />
+    
+    <EditText 
+        android:id="@+id/etseq3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan jawaban kamu..."
+        android:layout_below="@+id/tvseq4"
+        />
+    
+    <Button
+        android:id="@+id/btnseq3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_below="@+id/etseq3"
+        />
+            
+    
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvprofile1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="183303030017"
+        />
+    
+    <TextView
+        android:id="@+id/tvprofile2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jevan Halbers"
+        android:layout_below="@+id/tvprofile1"
+        />
+    
+    <TextView
+        android:id="@+id/tvprofile3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baris dan Deret"
+        android:layout_below="@+id/tvprofile2"
+        />
+    
+
+</RelativeLayout>
